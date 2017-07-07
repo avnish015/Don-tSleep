@@ -22,6 +22,7 @@
 		3782DD891C7305AB0035198E /* BatteryStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3782DD881C7305AB0035198E /* BatteryStatus.swift */; };
 		3782DD8B1C7307880035198E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3782DD8A1C7307880035198E /* IOKit.framework */; };
 		37944CA21F0F527100C960B5 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37944CA11F0F527100C960B5 /* Constant.swift */; };
+		37944CA61F0FC42B00C960B5 /* readMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 37944CA51F0FC42B00C960B5 /* readMe.rtf */; };
 		37F403FD1C61CC0A00A9C3E9 /* SleepWakeTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F403FC1C61CC0A00A9C3E9 /* SleepWakeTimer.swift */; };
 		7F9BE65B1C5F75B4005919BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9BE65A1C5F75B4005919BA /* AppDelegate.swift */; };
 		7F9BE65D1C5F75B4005919BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F9BE65C1C5F75B4005919BA /* Assets.xcassets */; };
@@ -60,6 +61,7 @@
 		3782DD8A1C7307880035198E /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		3782DD8E1C7315E10035198E /* DontSleep-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DontSleep-Bridging-Header.h"; sourceTree = "<group>"; };
 		37944CA11F0F527100C960B5 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		37944CA51F0FC42B00C960B5 /* readMe.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = readMe.rtf; sourceTree = "<group>"; };
 		37F403FC1C61CC0A00A9C3E9 /* SleepWakeTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepWakeTimer.swift; sourceTree = "<group>"; };
 		7F9BE6571C5F75B4005919BA /* DontSleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DontSleep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F9BE65A1C5F75B4005919BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 		7F9BE64E1C5F75B3005919BA = {
 			isa = PBXGroup;
 			children = (
+				37944CA51F0FC42B00C960B5 /* readMe.rtf */,
 				7F9BE6591C5F75B4005919BA /* DontSleep */,
 				371E67991C7EC0FA002FDEF4 /* DontSleepHelperApp */,
 				3782DD8C1C7307C50035198E /* Frameworks */,
@@ -292,6 +295,7 @@
 			files = (
 				376705BD1C6B340E0038C3C7 /* Preferences.storyboard in Resources */,
 				7F9BE65D1C5F75B4005919BA /* Assets.xcassets in Resources */,
+				37944CA61F0FC42B00C960B5 /* readMe.rtf in Resources */,
 				7F9BE6601C5F75B4005919BA /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
